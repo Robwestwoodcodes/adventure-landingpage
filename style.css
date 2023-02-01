@@ -25,6 +25,10 @@ a {
     color: white;
 }
 
+.orange {
+    color: orange;
+}
+
 .container {
     background: #1F2937;
     display: flex;
@@ -34,7 +38,7 @@ a {
 }
 
 .header-two {
-    margin-right: 180px;
+    margin-right: 165px;
     font-size: 26px;
 } 
 
@@ -50,10 +54,14 @@ a {
     text-align: center;
 }
 
+.section-one2 {
+margin-left: 100px;
+}
+
 .sub-hero {
     font-size: 26px;
     color: #E5E7EB;
-    margin-top: -25px;
+    margin-top: -50px;
 }
 
 .button-one {
