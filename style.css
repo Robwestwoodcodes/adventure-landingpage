@@ -104,17 +104,27 @@ margin-left: 100px;
 /* Section 2 */
 
 
-.section-two {
+.section2-wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 10px 0 10px 0;
 }
 
-.section-two-container2 {
-display: flex;
-align-items: center;
-text-align: center;
+.section2-container2 {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}   
+
+.section2-container3 {
+    display: flex;
+    gap: 39%;
+    justify-content: center;
+    margin: 1% 0 1% 0;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .images {
@@ -126,12 +136,12 @@ text-align: center;
 
 /* Section 3 */
 
-.section-three {
-    display: flex;
-    height: 700px;
+.section3-container {
     align-items: center;
-    flex-direction: column;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 700px;   
 }
 
 .video-two {
@@ -139,51 +149,57 @@ text-align: center;
 }
 
 .text {
-    height: 400px;
-    width: 700px;
-    text-align: center;
+    color: #1F2937;
     font-size: 36px;
     font-style: light italic;
-    color: #1F2937;
+    height: 400px;
+    text-align: center;
+    width: 700px;   
+}
+
+.text2 {
+    font-size: 28px;
+    text-align: right;  
 }
 
 /* Section 4 */
 
-.section-four {
-    display: flex;
+.section4-container {
     align-items: center;
-    justify-content: center;
-    height: 250px;
     color: white;
-    }
+    display: flex;
+    height: 250px;
+    justify-content: center;
+}
 
-    .box {
-        display: flex;
+    .section4-box {
         align-items: center;
+        background-color: #3882F6;
+        border-radius: 10px;
+        display: flex;
+        height: 100px;
         justify-content: space-around;
         width: 60%;
-        height: 100px;
-       background-color: #3882F6;
-       border-radius: 10px;
     }
 
     .button-two {
+        border: 2px solid white;
+        background: none;
+        border-radius: 10px;
         color: white;
+        cursor: pointer;
         font-size: 14px;
         width: 100px;
         height: 40px;
-    border: 2px solid white;
-    background: none;
-    border-radius: 10px;
     }
-    
+ 
 /* Footer specific */
 
 .footer {
-    display: flex;
-    justify-content: center;
     align-items: center;
     background: #1F2937;
-    font-size: 22px;
     color: white;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
 } 
